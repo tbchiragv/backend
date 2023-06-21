@@ -4,6 +4,8 @@ import 'package:server_demo/services/users_service.dart';
 
 Services get services => GetIt.instance.get<Services>();
 const _JWTSECRET = 'QDSFQ%\$WBTVQWEVTQ\$ TvqweRQWRQWEFQWCFQW RQ';
+const MONGODB_URL =
+    'mongodb+srv://chexvegad:test123@cluster0.ixlfoq4.mongodb.net/demoDB?retryWrites=true&w=majority';
 
 class Services {
   UsersService usersService = UsersService();
